@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #judul {
+            color:black;
+        }
+
+        .deskrifsi {
+            color:brown;
+            font-size: 20px;
+        }
+
+        div p {
+            color:cadetblue;
+            font-size: 16px;
+            font-style: italic;
+
+        }
+
+        div+p {
+            color: darkseagreen;
+            font-size: 16px;
+            font-style: inherit;
+        }
+        #judul2 {
+            color:black;
+        }
+
+        p[title^="buah"] {
+            color:olive;
+            font-style:italic;
+        }
+
+         p [title~="buah-buahan"] {
+            color:blue;
+        }
+         p[title|="bua"] {
+            color:fuchsia;
+            font-family: serif;
+         }
+        a[target] {
+            color:tomato;
+        }
+
+        .h4 {
+            color:black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="judul">toko buah</h1>
+    <p class="deskrifsi"><i>"selamatdatang</i>ditoko buah dhea"<i></p>
+    <div>
+        <article>
+            <p>semoga puas belanjanya di toko kami</p>
+        </article>
+        <p>kami lagi ada buah ptong nih ada<br>
+         1.buah naga Rp12.000 <br> 
+         2.mangga Rp 15.000<br> 
+         3.semangka Rp1.2000</p>
+        </article>
+        <p>terima kasih sudah belanja ditoko kami</p>
+    <br>
+    <h3 id="Judul">Jenis buah-buahan</h3>
+    <p title="buah">1. Apel</p>
+    <p title="buah">2. Anggur</p>
+    <p title="buah-buahan">3. Belingbing</p>
+    <p title="buah-buahan">4. Ceri</p>
+     <p title="bua">5. Durian</p>
+     <p title="bua">6.Dukuh </p>
+      <p title="bua">7. Elderberry</p>
+
+     <h4 class="h4">Social Media Link :</h4>
+     <a href="https://www.instagram.com" target="-blank">instagram</a>
+
+    </div>
+</body>
+
+</html>
